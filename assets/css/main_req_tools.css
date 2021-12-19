@@ -1,0 +1,48 @@
+
+  /* From Request Role and Request Tools */
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 1.5em;
+    padding: 1px;
+    margin-left: 2px;
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    color: #333 !important;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+
+.req_title {
+    margin-top: 40px;
+    margin-left: 400px;
+
+}
+
+.btn_addRole {
+    margin-left: 400px;
+    margin-right: 20px;
+    display: flex;
+
+}
+
+.div_table {
+    /* margin-left: auto; */
+    margin-right: auto;
+    font-size: 14px;
+    height: 100%;
+    table-layout: fixed;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 250px;
+
+    /* margin-right: 50px; */
+
+
+}
+
+ 
+  
