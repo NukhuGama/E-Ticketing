@@ -75,7 +75,7 @@ class Request_role extends CI_Controller
 		$this->M_request->add_request_role($nameApp,  $role_access, $is_deleted, $itNotes, $status_req,  $iby, $reqDate);
 
 		// Adding to the history list
-		$this->M_history->add_history_role($nameApp, $role_access,  $is_deleted, $itNotes, $status_req, $iby, $reqDate);
+		// $this->M_history->add_history_role($nameApp, $role_access,  $is_deleted, $itNotes, $status_req, $iby, $reqDate);
 
 		redirect('request_role');
 	}
@@ -89,7 +89,7 @@ class Request_role extends CI_Controller
 		$this->M_request->update_req_role($id);
 
 		// Adding to the history list
-		$this->M_history->select_dataInsert($id);
+		// $this->M_history->select_dataInsert($id);
 
 		redirect('request_role');
 	}
@@ -101,7 +101,7 @@ class Request_role extends CI_Controller
 		$this->M_request->delete_req_role($id);
 
 		// Adding to the history list
-		$this->M_history->select_dataInsert($id);
+		// $this->M_history->select_dataInsert($id);
 
 
 
@@ -115,7 +115,7 @@ class Request_role extends CI_Controller
 		$this->M_request->submit_request_role($id);
 
 		// Adding to the history list
-		$this->M_history->select_dataInsert($id);
+		// $this->M_history->select_dataInsert($id);
 
 		redirect('request_role');
 	}

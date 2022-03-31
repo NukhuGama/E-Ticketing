@@ -109,15 +109,15 @@
                                         if ($data->is_deleted == 0) {
                                             if ($data->status_req == 0) {
                                                 if ($data->uby == "") {
-                                                    echo $data->status_desc . ' by ' . $data->fullname;
+                                                    echo $data->status_req . ' by ' . $data->fullname;
                                                 } else {
                                                     echo 'Updated Draft' . ' by ' . $data->fullname;
                                                 }
                                             } else {
-                                                if ($data->status_desc < 0) {
-                                                    echo $data->status_desc . ' by ' . $test->fullname;
+                                                if ($data->status_req < 0) {
+                                                    echo $data->status_req . ' by ' . $test->fullname;
                                                 } else {
-                                                    echo $data->status_desc . ' by ' . $data->uby;
+                                                    echo $data->status_req . ' by ' . $data->uby;
                                                 }
                                             }
                                         } elseif ($data->is_deleted == 1) {

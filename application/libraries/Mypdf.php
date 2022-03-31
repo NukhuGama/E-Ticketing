@@ -1,12 +1,29 @@
 <?php
 
 defined('BASEPATH') or exit('No direct script access allowed');
+ /**
+
+
+* CodeIgniter PDF Library
+ *
+ * Generate PDF's in your CodeIgniter applications.
+ *
+ * @package         CodeIgniter
+ * @subpackage      Libraries
+ * @category        Libraries
+ * @author          Chris Harvey
+ * @license         MIT License
+ * @link            https://github.com/chrisnharvey/CodeIgniter-PDF-Generator-Library
+
+
+
+*/
 
 require_once('assets/dompdf/autoload.inc.php');
 
 use Dompdf\Dompdf;
 
-class Mypdf
+class Mypdf extends DOMPDF
 {
     protected $ci;
 

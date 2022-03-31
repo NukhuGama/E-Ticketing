@@ -43,8 +43,8 @@ class History extends CI_Controller
 
             $this->load->view('home', $data);
 
-            $t = $this->db->query("SELECT * FROM tbl_request_log WHERE iby='$nik' ");
-            $uby = $t->row()->uby;
+            // $t = $this->db->query("SELECT * FROM tbl_request_log WHERE iby='$nik' ");
+            // $uby = $t->row()->uby;
 
             $data['query'] = $this->M_history->getRole_hist();
 

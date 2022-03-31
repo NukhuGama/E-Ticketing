@@ -190,7 +190,7 @@
 						</div>
 						<div class="modal-body">
 
-							<input type="hidden" name="id" id="id" class="form-control" placeholder="" value="<?php echo $data->id; ?>" readonly>
+							<input type="hidden" name="id" id="id" class="form-control" placeholder="" value="<?php echo $this->session->userdata('nik'); ?>" readonly>
 
 							<input type="hidden" name="iby" id="iby" class="form-control" placeholder="" value="<?php echo $this->session->userdata('nik') ?>" readonly>
 							<div class="form-group row">
